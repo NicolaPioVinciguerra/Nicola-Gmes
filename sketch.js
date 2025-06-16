@@ -28,7 +28,7 @@ function preload() {
   au3 = loadSound("Audio/gameover.wav");
   au4 = loadSound("Audio/meno.wav");
   au5 = loadSound("Audio/gioco.wav");
-
+  N1Font = loadFont('Fonts/ARCADECLASSIC.ttf');
   N2Font = loadFont('Fonts/PixelPurl.ttf');
   sfondo = loadImage("png/sfondo.png");
   sfondo2 = loadImage("png/sfondo2.png");
@@ -207,7 +207,8 @@ else if (state == 3) {
   fill(255);
   textSize(45);
   if (frameCount % 60 < 30)
-    text("GAME OVER", width / 2, height / 2);
+  textFont(N2Font);
+  text("GAME OVER", width / 2, height / 2);
   textSize(20);
   text("IL TUO PUNTEGGIO", width / 2, height / 2 + 20);
   text(Meteorite.score, width / 2, height / 2 + 40);
