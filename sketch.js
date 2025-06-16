@@ -28,7 +28,7 @@ function preload() {
   au3 = loadSound("Audio/gameover.wav");
   au4 = loadSound("Audio/meno.wav");
   au5 = loadSound("Audio/gioco.wav");
-  N1Font = loadFont('Fonts/ARCADECLASSIC.ttf');
+ 
   N2Font = loadFont('Fonts/PixelPurl.ttf');
   sfondo = loadImage("png/sfondo.png");
   sfondo2 = loadImage("png/sfondo2.png");
