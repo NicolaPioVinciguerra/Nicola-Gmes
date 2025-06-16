@@ -292,6 +292,8 @@ function keyPressed() {
     Meteorite.score = 0;
   }
 }  
+/*
+
 function shootBullet() {
   if (PowerUpAttivo) {
     bullets.push(ship.shoot(bulletSize, -0.2));
@@ -309,5 +311,5 @@ function activatePowerUp() {
     ship.removePowerUp("raddoppiare");
   }
 }
- 
+ */
 

@@ -118,7 +118,8 @@ if ((keyIsDown(50) || (gp && gp.buttons[5].pressed)) && this.hasPowerUp("raddopp
     }
     return bullets;
   }
-
+  
+// Calcola la posizione di partenza (la punta della nave)
   _createBullet(angle, size) {
     let tipX = this.x + 15 * cos(angle);
     let tipY = this.y + 15 * sin(angle);
