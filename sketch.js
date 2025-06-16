@@ -8,7 +8,7 @@ var au1, au2, au3, au4, au5;
 var au2Started = false;
 var au3Played = false;
 var au5Played = false;//5ERORE
-var N1Font, N2Font;
+var N2Font;
 var ship;
 var triSize = 20;
 var spacing = 10;
