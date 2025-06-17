@@ -8,7 +8,7 @@ var au1, au2, au3, au4, au5;
 var au2Started = false;
 var au3Played = false;
 var au5Played = false;//5ERORE
-var N1Font, N2Font;
+var  N2Font;
 var ship;
 var triSize = 20;
 var spacing = 10;
@@ -28,7 +28,7 @@ function preload() {
   au3 = loadSound("Audio/gameover.wav");
   au4 = loadSound("Audio/meno.wav");
   au5 = loadSound("Audio/gioco.wav");
-  N1Font = loadFont('Fonts/ARCADECLASSIC.ttf');
+  
   N2Font = loadFont('Fonts/PixelPurl.ttf');
   sfondo = loadImage("png/sfondo.png");
   sfondo2 = loadImage("png/sfondo2.png");
